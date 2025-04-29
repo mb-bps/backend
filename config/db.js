@@ -1,4 +1,4 @@
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const db = mysql.createConnection({
   host: "moc-bps-mysql.mysql.database.azure.com",
   user: "root_bps",
