@@ -1,3 +1,5 @@
+global.__basedir = __dirname;
+
 var express = require('express');
 const mysql = require('mysql');
 const env = require('./config/env.js');
@@ -24,5 +26,5 @@ var server = app.listen(8080, function () {
 	var host = server.address().address
 	var port = server.address().port
 
-	console.log("App listening at http://%s:%s", host, port)
+	console.log("App listening at https://moc-bp-dev-cqg2fha9bmd8gaf3.westeurope-01.azurewebsites.net")
 })
