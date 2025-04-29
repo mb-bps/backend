@@ -26,5 +26,5 @@ var server = app.listen(8080, function () {
 	var host = server.address().address
 	var port = server.address().port
 
-	console.log("App listening at https://moc-bp-dev-cqg2fha9bmd8gaf3.westeurope-01.azurewebsites.net")
+	console.log("App listening at http://%s:%s", host)
 })
